@@ -86,7 +86,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-lg border border-slate-200 bg-slate-100 group">
               <img
-                src="/src/assets/images/hero_clinic_building_1792067052793.jpg"
+                <img src="https://unsplash.com" alt="Gedung Klinik" className="w-full h-full object-cover" />
                 alt="Fasilitas dan Meja Pelayanan Klinik Pratama Wijaya Medika Palembang"
                 className="w-full h-[360px] sm:h-[420px] object-cover transition-transform duration-500 group-hover:scale-102"
                 referrerPolicy="no-referrer"
