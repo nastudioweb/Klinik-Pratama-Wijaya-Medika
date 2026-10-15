@@ -1,0 +1,6 @@
+{
+  "name": "Klinik Pratama Wijaya Medika",
+  "description": "Website profil resmi Klinik Pratama Wijaya Medika Palembang dilengkapi jadwal dokter online, booking janji temu WhatsApp/Web, layanan poli, lab, dan galeri fasilitas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
