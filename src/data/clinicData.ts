@@ -55,6 +55,7 @@ export const CLINIC_INFO = {
   operatingHours: 'Setiap Hari · 08:00 - 21:00 WIB',
   isOpenNow: true,
   bpjsAccepted: true,
+  heroImage: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80',
   facilitiesHighlights: [
     'Menerima Pasien BPJS & Umum',
     'Buka Hingga Pukul 21.00 WIB',
@@ -239,7 +240,7 @@ export const CLINIC_FACILITIES: FacilityItem[] = [
     title: 'Ruang Tunggu Pasien Ber-AC & Nyaman',
     category: 'ruang_tunggu',
     categoryLabel: 'Ruang Tunggu',
-    image: '/assets/images/clinic_waiting_room_1792067056017.jpg',
+    image: 'https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1200&q=80',
     description: 'Suasana ruang tunggu sejuk ber-AC dengan kursi ergonomis, lantai marmer bersih, pencahayaan alami yang menenangkan, serta layar informasi kesehatan dan display antrean.',
     features: ['Pendingin Udara (AC) Dingin & Higienis', 'Layar Antrean & Informasi Edukasi', 'Dispenser Air Bersih & Area Rapi'],
     specs: 'Kapasitas 40+ pasien duduk dengan jarak nyaman'
@@ -249,7 +250,7 @@ export const CLINIC_FACILITIES: FacilityItem[] = [
     title: 'Poli Gigi Modern dengan Dental Unit Higienis',
     category: 'gigi',
     categoryLabel: 'Poli Gigi',
-    image: '/assets/images/clinic_dental_room_1792067055520.jpg',
+    image: 'https://images.unsplash.com/photo-1629909615184-74f495363b67?auto=format&fit=crop&w=1200&q=80',
     description: 'Ruang praktek dokter gigi terstandar dengan dental chair ergonomis berbalut teal modern, instrumen disterilisasi suhu tinggi secara berkala, dan visualisasi rontgen digital.',
     features: ['Dental Chair Unit Ergonomis', 'Sterilisasi Autoclave Standar Medis', 'Lampu Pemeriksaan LED Fokus'],
     specs: 'Instrumen steril single-use packaging untuk keamanan pasien'
@@ -259,7 +260,7 @@ export const CLINIC_FACILITIES: FacilityItem[] = [
     title: 'Ruang Konsultasi Dokter yang Nyaman & Privat',
     category: 'poli',
     categoryLabel: 'Poli & Konsultasi',
-    image: '/assets/images/clinic_doctor_consultation_1792067055172.jpg',
+    image: 'https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=1200&q=80',
     description: 'Ruang pemeriksaan dokter yang tenang dan privat, memastikan setiap pasien dapat berkonsultasi secara mendalam tanpa terburu-buru, dilengkapi meja dokter dan bed periksa higienis.',
     features: ['Privasi Percakapan Medis 100%', 'Bed Pemeriksaan dengan Sekat Bersih', 'Peralatan Diagnostik Digital Terkalibrasi'],
     specs: 'Ruang kedap nyaman untuk konsultasi mendalam'
@@ -269,7 +270,7 @@ export const CLINIC_FACILITIES: FacilityItem[] = [
     title: 'Laboratorium & Ruang Sampling Phlebotomy',
     category: 'lab',
     categoryLabel: 'Laboratorium',
-    image: '/assets/images/clinic_laboratory_sampling_1792067055946.jpg',
+    image: 'https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=1200&q=80',
     description: 'Fasilitas diagnostik laboratorium mandiri dengan kursi pengambilan darah ergonomis, centrifuge modern, dan instrumen analisis otomatis demi hasil pemeriksaan yang cepat dan presisi.',
     features: ['Sampling Darah Ramah & Lembut', 'Pemeriksaan Darah Lengkap & Kimia Darah', 'Hasil Langsung Siap dalam Waktu Singkat'],
     specs: 'Kalibrasi rutin berkala & standar biosafety terjamin'
@@ -279,7 +280,7 @@ export const CLINIC_FACILITIES: FacilityItem[] = [
     title: 'Apotek & Ruang Penyerahan Obat Terstandar',
     category: 'farmasi',
     categoryLabel: 'Farmasi & Apotek',
-    image: '/assets/images/clinic_pharmacy_1792067087758.jpg',
+    image: 'https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=1200&q=80',
     description: 'Depo farmasi resmi dengan stok obat asli terdaftar BPOM. Petugas apoteker memberikan edukasi dan penjelasan cara konsumsi obat secara jelas kepada setiap pasien.',
     features: ['100% Obat Asli Terdaftar BPOM', 'Penyimpanan Suhu Khusus Terpantau', 'Penjelasan Dosis Rinci oleh Apoteker'],
     specs: 'Pengambilan resep cepat tanpa antrean panjang'
@@ -289,7 +290,7 @@ export const CLINIC_FACILITIES: FacilityItem[] = [
     title: 'Lobi & Meja Registrasi Pasien Ramah',
     category: 'ruang_tunggu',
     categoryLabel: 'Resepsi & Pelayanan',
-    image: '/assets/images/hero_clinic_building_1792067052793.jpg',
+    image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80',
     description: 'Area depan dan meja resepsionis yang bersih dan luas, tempat staf menyambut Anda dengan senyum ramah, memandu pendaftaran pasien BPJS maupun mandiri secara cepat.',
     features: ['Petugas Sigap & Cepat Tanggap', 'Pendaftaran BPJS Kesehatan & Umum Cepat', 'Informasi Jadwal Dokter Transparan'],
     specs: 'Alur pendaftaran teratur dan mudah diakses lansia'
